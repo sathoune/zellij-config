@@ -1,6 +1,33 @@
 // If you'd like to override the default keybindings completely, be sure to change "keybinds" to "keybinds clear-defaults=true"
 
 default_mode "locked"
+
+theme "default"
+themes {
+    default {
+        bg "#000"
+        // inactive buttons
+        fg "#db5" // granola
+        // bottom right text
+        red "#111"
+        // current pane/tab
+        green "#b29" // prisma
+        yellow "#ff8"
+        blue "#68b"
+        // bottom text
+        magenta "#802" // burgundy
+        // change tab/pane highlight
+        // "Alt" text at the bottom
+        // "Alt" text on top
+        orange "#e80" // apricot
+        cyan "#8ff"
+        // top & bottom background
+        black "#111"
+        // top left (only?) text
+        white "#333"
+    }
+}
+
 keybinds clear-defaults=true {
     normal {
         // uncomment this and adjust key if using copy_on_select=false
@@ -224,30 +251,6 @@ plugins {
 //
 // scrollback_lines_to_serialize 10000
 
-// Define color themes for Zellij
-// For more examples, see: https://github.com/zellij-org/zellij/tree/main/example/themes
-// Once these themes are defined, one of them should to be selected in the "theme" section of this file
-//
-// themes {
-//     dracula {
-//         fg 248 248 242
-//         bg 40 42 54
-//         red 255 85 85
-//         green 80 250 123
-//         yellow 241 250 140
-//         blue 98 114 164
-//         magenta 255 121 198
-//         orange 255 184 108
-//         cyan 139 233 253
-//         black 0 0 0
-//         white 255 255 255
-//     }
-// }
-
-// Choose the theme that is specified in the themes section.
-// Default: default
-//
-// theme "default"
 
 // The name of the default layout to load on startup
 // Default: "default"
