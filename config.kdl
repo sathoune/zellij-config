@@ -7,11 +7,11 @@ themes {
     default {
         bg "#000"
         // inactive buttons
-        fg "#db5" // granola
+        fg "#fd7" // mellow
         // bottom right text
         red "#111"
         // current pane/tab
-        green "#b29" // prisma
+        green "#f28" // electric pink
         yellow "#ff8"
         blue "#68b"
         // bottom text
